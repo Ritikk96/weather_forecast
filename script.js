@@ -35,7 +35,7 @@ mapBtn.addEventListener('click', function () {
     mapFiled.classList.remove('d-none');
 })
 
-// creat dom with api data
+
 // get data from api with fetch
 async function fetchData(_name) {
     let res = await fetch(`http://api.openweathermap.org/geo/1.0/direct?q=${_name}&limit=4&appid=71b1e027f294fd8494fd6f5745493efe`)
@@ -234,3 +234,4 @@ function chanceofRain(r) {
 function kelvinToCeli(temp) {
     return temp - 273;
 }
+//updated

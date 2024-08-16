@@ -266,7 +266,6 @@ main{
     left: 50%;
     transform: translateX(-50%);
 }
-/* js part */
 .d-none{
     display: none !important;
     overflow: hidden !important;
